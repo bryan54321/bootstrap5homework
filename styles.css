@@ -1,19 +1,64 @@
-html,
 body{
-    height: 100%;
+    height:100%;
     font-size: 1rem;
-    font-family: "montserrat", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .gradient{
-    background: rgb(0, 97, 242);
+    background: rgb(2,0,36);
     background: linear-gradient(
-        135deg,
-        rgba(0, 97, 242, 1) 0%,
-        rgba(105, 0, 199, 1) 100%
-    );
+        90deg,
+        rgba(2,0,36,1) 0%,
+        rgba(0,74,255,1) 44%,
+        rgba(0,177,17,1) 100%);
 }
+
 .page-header{
-    margin-top: 4rem;
-    font-size: 1.25rem;
-    color: #fff;
+    margin-top:4rem;
+    font-size:1.25rem;
+    color:white;
+    
+
 }
+#idek{
+    color:white;
+}
+
+.feature{
+    color:white;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li{
+    padding-left: 2rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.icon{
+    color:black;
+    height:5rem;
+    width:5rem;
+    font-size:1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.gallery img{
+    border-radius:5%;
+}
+.services{
+    color: white;
+}
+ footer{
+    color:white;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+ }
+ a{
+    color:white;
+    text-decoration: none;
+ }
